@@ -45,7 +45,6 @@ export class FavoritesView extends Favorites {
     const addButton = this.root.querySelector(".search button");
     addButton.onclick = () => {
       const { value } = this.root.querySelector(".search input");
-
       this.add(value);
     };
   }
